@@ -1,0 +1,21 @@
+#can change file extensions and edit parts of file names
+#This code replaces spaces in filenames with periods
+#also adds @roivant.com 
+#also creates a .docx extension (you can use any extension)
+
+
+
+
+import os 
+os.chdir("C:\\Users\\trent.williams\\Documents\\Test File Names")
+for filename in os.listdir("."):
+	os.rename(filename, filename.replace(" ", "."))
+
+for filename in os.listdir("."):
+	os.rename(filename, filename + "@roivant.com")
+
+for filename in os.listdir(".")
+	os.rename(filename, filename.replace(".docx", ""))                             
+
+for filename in os.listdir(".")
+	os.rename(filename, filename + ".docx"))
